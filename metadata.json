@@ -1,0 +1,8 @@
+{
+  "name": "Astro FIT",
+  "description": "Autonomous astronaut health monitoring, NASA HRP 5-Hazards clinical decision support, and interactive anatomical telemetry cockpit for deep-space missions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

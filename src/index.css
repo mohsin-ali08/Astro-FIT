@@ -1,0 +1,110 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html,
+  body {
+    background-color: #090A0F;
+    color: #E5E7EB;
+    font-family: var(--font-sans);
+    overflow-x: clip;
+  }
+}
+
+.font-display {
+  font-family: var(--font-sans);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.flight-panel {
+  background-color: #11131A;
+  border: 1px solid #232734;
+}
+
+.flight-subpanel {
+  background-color: #0D0F15;
+  border: 1px solid #232734;
+}
+
+.flight-micro-label {
+  font-size: 10px;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8E96AA;
+  font-weight: 600;
+}
+
+.cad-grid-bg {
+  background-color: #0D0F15;
+  background-image:
+    linear-gradient(to right, #171B26 1px, transparent 1px),
+    linear-gradient(to bottom, #171B26 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes criticalReticleAlert {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.critical-reticle-blink {
+  animation: criticalReticleAlert 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .critical-reticle-blink {
+    animation: none;
+  }
+}
+
+/* Touch-friendly precision range slider thumbs */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  background: #2B7FFF;
+  border: 1px solid #E5E7EB;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  background: #2B7FFF;
+  border: 1px solid #E5E7EB;
+  cursor: pointer;
+}
+
+/* Precision flight-deck scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090A0F;
+}
+::-webkit-scrollbar-thumb {
+  background: #232734;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B4254;
+}
