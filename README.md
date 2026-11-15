@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://astro-fit-ten.vercel.app/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-astro--fit--ten.vercel.app-2B7FFF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://docs.google.com/presentation/d/1ZeGRVQK5hmxuOAObG82Cca1hVZbkqIIU/edit?usp=drive_link&ouid=113115186799149074503&rtpof=true&sd=true"><img alt="Presentation" src="https://img.shields.io/badge/Presentation-Google%20Slides-FBBC04?style=for-the-badge&logo=googleslides&logoColor=white" /></a>
   <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
@@ -28,7 +29,7 @@
 | Resource | Description | Link |
 | --- | --- | --- |
 | **Live Deployment** | Production build hosted on Vercel | https://astro-fit-ten.vercel.app/ |
-| **Presentation Slides** | Pitch deck walkthrough | `[ADD_SLIDES_LINK_HERE]` |
+| **Presentation Slides** | Pitch deck walkthrough (Google Slides) | [View Slides](https://docs.google.com/presentation/d/1ZeGRVQK5hmxuOAObG82Cca1hVZbkqIIU/edit?usp=drive_link&ouid=113115186799149074503&rtpof=true&sd=true) |
 | **Video Demo** | Full feature walkthrough on YouTube | `[ADD_YOUTUBE_VIDEO_LINK_HERE]` |
 
 ---
